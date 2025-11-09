@@ -74,7 +74,3 @@ Once the application is running:
 
 5. Visit the "Analytics" page to see visual breakdowns of your financial data.
 
-## Contributing
-
-Feedback and contributions are encouraged. If you'd like to contribute, please feel free to fork the repository, make your changes, and submit a pull request.
-   

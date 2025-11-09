@@ -1,45 +1,80 @@
-# Online Finance Management System
+MERN Personal Finance Dashboard
 
-This project is an Online Finance Management System developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It is designed to assist users in managing their finances efficiently by providing various tools and features to track, analyze, and visualize financial data.
+This repository contains a full-stack application for personal finance management. It provides a robust set of tools for users to monitor their income, track their expenditures, and plan their budgets. Built entirely with the MERN stack, the app offers a dynamic and responsive user experience for analyzing and understanding personal financial habits.
 
-![Finance-Management (4)](https://github.com/diaskalana/Finance-Management-System/assets/74653324/13f05091-4657-475c-b8ff-76a1a08d6ad2)
+Key Features
 
-## Features
+Secure Authentication: A complete user registration and login system to ensure data privacy.
 
-- **User Authentication**: Secure user authentication and authorization system.
-- **Dashboard**: An interactive dashboard displaying a comprehensive financial summary.
-- **Expense Tracker**: Allows users to log and categorize expenses.
-- **Income Management**: Tracks and manages various sources of income.
-- **Budget Planning**: Helps in planning and setting budgets for different categories.
-- **Visual Analytics**: Provides graphical representations of financial data for easy understanding.
-- **Responsive Design**: Ensures a seamless experience across devices.
+Financial Overview: A central dashboard that provides a high-level, consolidated view of your financial status.
 
-![Finance-Management (5)](https://github.com/diaskalana/Finance-Management-System/assets/74653324/685d0b75-599b-4125-8daf-00b8e2380218)
-![Finance-Management (6)](https://github.com/diaskalana/Finance-Management-System/assets/74653324/07f7f71f-3ba7-4770-aab4-d4bd727bd9e1)
-![Finance-Management (7)](https://github.com/diaskalana/Finance-Management-System/assets/74653324/9caf42ee-fb76-4589-959b-912d11fe9c8f)
+Expense Logging: Functionality to log all expenditures, which can be sorted and filtered by category.
 
-## Technologies Used
+Income Tracking: Tools to log and manage multiple streams of income.
 
-- **MongoDB**: NoSQL database used for storing financial data.
-- **Express.js**: Backend framework for building robust APIs.
-- **React.js**: Frontend library for creating interactive user interfaces.
-- **Node.js**: JavaScript runtime for server-side logic.
+Budgeting Tool: A planning feature that allows users to create and manage monthly or categorical budgets.
 
-## Installation
+Data Visualization: Interactive charts and graphs to help users identify spending trends and analyze their financial data visually.
 
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Install dependencies using `npm install` in both the client and server directories.
-4. Configure the environment variables.
-5. Run the application using `npm start` for both frontend and backend.
+Responsive Layout: A mobile-first design that adapts to all screen sizes, ensuring usability on desktops, tablets, and smartphones.
 
-## Usage
+Tech Stack
 
-1. Register for an account or log in if you already have one.
-2. Explore the dashboard to view the financial summary.
-3. Add expenses, manage income, and plan budgets accordingly.
-4. Analyze graphical representations of financial data for insights.
+This project is built using the following technologies:
 
-## Contributing
+MongoDB: A NoSQL database used as the primary data store for all user and transaction data.
 
-Contributions are welcome! Feel free to submit issues and pull requests.
+Express.js: A minimal backend web framework for Node.js, used to build and manage the RESTful API.
+
+React.js: A frontend JavaScript library for building the dynamic and interactive user interface.
+
+Node.js: The server-side runtime environment that executes the backend logic.
+
+Local Setup
+
+To run this project on your local machine, follow these steps:
+
+Clone this repository:
+
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+
+
+Navigate into the main project folder:
+
+cd your-repo-name
+
+
+Install backend dependencies (from the server directory):
+
+cd server
+npm install
+
+
+Install frontend dependencies (from the client directory):
+
+cd ../client
+npm install
+
+
+Create a .env file in the server directory. You will need to add your environment variables here, such as your MONGODB_URI connection string and a JWT_SECRET.
+
+Once configured, run both the backend and frontend servers.
+
+To start the backend (from /server): npm start
+
+To start the frontend (from /client): npm start
+
+How to Use
+
+Once the application is running:
+
+Register for a new user account or log in with existing credentials.
+
+View the main dashboard for a summary of your finances.
+
+Navigate to the "Income" and "Expenses" sections to add new transactions.
+
+Use the "Budgets" feature to set spending limits.
+
+Visit the "Analytics" page to see visual breakdowns of your financial data.
+
